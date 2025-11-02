@@ -1,4 +1,4 @@
-#Pre-installation
+# Pre-installation
 
 Downloaded the image for the arch VM from the downloads link in the Install Guide on ArchWiki
 
@@ -44,12 +44,12 @@ mount both partitions
 ```lsblk```
 this checks that everything was mounted correctly
 
-#Installation 
+# Installation 
 
 ```pacstrap -K /mnt/mount base linux linux-firmware```
 This command installs the base system, the linux kernel, and firmware
 
-#Configuration
+# Configuration
 
 ```genfstab -U /mnt/mount >> /mnt/mount/etc/fstab```
 ```cat /mnt/mount/etc/fstab```
@@ -140,5 +140,5 @@ set the vm it boot into the desktop environment
 
 to add alias, I used nano to edit the .bashrc file. Some of the aliases I added where when 'c' is entered, the terminal screen clears.
 
-#Screenshots
+# Screenshots
 ![[20CF309A-9235-477D-982D-D39DB5BF46B3_4_5005_c.jpeg]]![[IMG_0451.heic]]![[IMG_0450.heic]]
