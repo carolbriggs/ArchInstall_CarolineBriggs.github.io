@@ -37,12 +37,15 @@ sudo apt-get update
 Setting up the apt repo
 
 ```sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
+
 installation
 
 ```sudo systemctl status docker```
+
 ensure docker is running
 
 ```sudo docker run hello-world```
+
 check that installation was completed correctly
 
 ## Docker_Compose_GitLab
@@ -67,7 +70,9 @@ volumes:
 ```
 
 ```sudo docker compose up```
+
 starts the container
 
 ```sudo docker compose down```
+
 ends the container
